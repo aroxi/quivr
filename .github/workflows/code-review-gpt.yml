@@ -16,7 +16,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
 
       - name: Install code-review-gpt
         run: npm install code-review-gpt
