@@ -35,23 +35,17 @@ export const NavItems = ({
       {isUserLoggedIn ? (
         <>
           <NavLink setOpen={setOpen} to="/upload">
-            Upload
+            Carica
           </NavLink>
           <NavLink setOpen={setOpen} to="/chat">
             Chat
           </NavLink>
           <NavLink setOpen={setOpen} to="/explore">
-            Explore
+            Esplora
           </NavLink>
         </>
       ) : (
         <>
-          <NavLink setOpen={setOpen} to="https://github.com/StanGirard/quivr">
-            Github
-          </NavLink>
-          <NavLink setOpen={setOpen} to="https://discord.gg/HUpRgp2HG8">
-            Discord
-          </NavLink>
         </>
       )}
       <div className="flex sm:flex-1 sm:justify-end flex-col items-center justify-center sm:flex-row gap-5 sm:gap-2">

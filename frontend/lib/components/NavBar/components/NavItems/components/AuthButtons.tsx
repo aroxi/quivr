@@ -16,7 +16,7 @@ export const AuthButtons = (): JSX.Element => {
 
   return (
     <Link href={"/signup"}>
-      <Button variant={"secondary"}>Register</Button>
+      <Button variant={"secondary"}>Registrati</Button>
     </Link>
   );
 };

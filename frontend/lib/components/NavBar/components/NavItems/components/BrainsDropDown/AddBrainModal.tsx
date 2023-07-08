@@ -27,7 +27,7 @@ const AddBrainModal = (): JSX.Element => {
     <Modal
       Trigger={
         <Button variant={"secondary"}>
-          Add New Brain
+          Aggiungi Nuovo Cervello
           <MdAdd className="text-xl" />
         </Button>
       }
@@ -40,7 +40,7 @@ const AddBrainModal = (): JSX.Element => {
       >
         <Field
           name="brainname"
-          label="Enter a brain name"
+          label="Digita un nome"
           autoFocus
           placeholder="E.g. History notes"
           autoComplete="off"

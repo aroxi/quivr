@@ -33,7 +33,7 @@ export const BrainsDropDown = (): JSX.Element => {
           <div>
             <Field
               name="brainsearch"
-              placeholder="Search for a brain"
+              placeholder="Cerca un cervello"
               autoFocus
               autoComplete="off"
               value={searchQuery}
