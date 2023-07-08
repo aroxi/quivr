@@ -39,7 +39,7 @@ export const ChatInput = (): JSX.Element => {
           }
         }}
         className="w-full p-2 border border-gray-300 dark:border-gray-500 outline-none rounded dark:bg-gray-800"
-        placeholder="Begin conversation here..."
+        placeholder="Inizia da qui.."
         data-testid="chat-input"
       />
       <Button
@@ -48,7 +48,7 @@ export const ChatInput = (): JSX.Element => {
         isLoading={generatingAnswer}
         data-testid="submit-button"
       >
-        {generatingAnswer ? "Thinking..." : "Chat"}
+        {generatingAnswer ? "Sto ragionando..." : "Chat"}
       </Button>
       <div className="flex items-center">
         <MicButton setMessage={setMessage} />

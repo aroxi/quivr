@@ -23,10 +23,10 @@ const ExplorePage = (): JSX.Element => {
       <section className="w-full outline-none pt-10 flex flex-col gap-5 items-center justify-center p-6">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-3xl font-bold text-center">
-            Explore uploaded data
+            Esplora dati caricati
           </h1>
           <h2 className="opacity-50">
-            View or delete stored data used by your brain
+            Consulta o cancella i dati memorizzati nell'istanza neurale
           </h2>
         </div>
         {isPending ? (

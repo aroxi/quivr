@@ -44,7 +44,7 @@ describe("ChatMessages", () => {
 
     const { getByText } = render(<ChatMessages />);
 
-    const placeholderText = getByText("Ask a question, or describe a task.");
+    const placeholderText = getByText("Fai una domanda o descrivi un task.");
     expect(placeholderText).toBeDefined();
   });
 });
