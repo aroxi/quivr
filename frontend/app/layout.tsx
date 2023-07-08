@@ -14,9 +14,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Quivr - Get a Second Brain with Generative AI",
+  title: "Merzost - Reti Neurali Specializzate",
   description:
-    "Quivr is your second brain in the cloud, designed to easily store and retrieve unstructured information.",
+    "Merzost legge e impara i tuoi documenti",
 };
 
 const RootLayout = async ({
