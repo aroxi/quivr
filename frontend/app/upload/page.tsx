@@ -13,8 +13,8 @@ const UploadPage = (): JSX.Element => {
   return (
     <main className="pt-10">
       <PageHeading
-        title="Upload Knowledge"
-        subtitle="Text, document, spreadsheet, presentation, audio, video, and URLs supported"
+        title="Caricamento Strutture"
+        subtitle="Testo, documenti, excel, powerpoint, audio, video, e siti web"
       />
       <FileUploader />
       <Divider text="or" className="m-5" />

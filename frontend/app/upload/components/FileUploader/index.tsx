@@ -36,7 +36,7 @@ export const FileUploader = (): JSX.Element => {
                   onClick={open}
                   className="opacity-50 h-full cursor-pointer hover:opacity-100 hover:underline transition-opacity"
                 >
-                  Drag and drop files here, or click to browse
+                  Drag and drop qui, o clicca per cercare
                 </button>
               )}
             </div>

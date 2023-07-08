@@ -47,7 +47,7 @@ const ExplorePage = (): JSX.Element => {
               <div className="flex flex-col items-center justify-center mt-10 gap-1">
                 <p className="text-center">Oh No, Your Brain is empty.</p>
                 <Link href="/upload">
-                  <Button>Upload</Button>
+                  <Button>Carica</Button>
                 </Link>
               </div>
             )}

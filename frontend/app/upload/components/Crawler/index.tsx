@@ -21,7 +21,7 @@ export const Crawler = (): JSX.Element => {
                   name="crawlurl"
                   ref={urlInputRef}
                   type="text"
-                  placeholder="Enter a website URL"
+                  placeholder="Inserisci URL Sito"
                   className="w-full"
                 />
               </div>

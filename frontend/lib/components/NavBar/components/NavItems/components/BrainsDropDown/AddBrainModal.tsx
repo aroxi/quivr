@@ -31,8 +31,8 @@ const AddBrainModal = (): JSX.Element => {
           <MdAdd className="text-xl" />
         </Button>
       }
-      title="Add Brain"
-      desc="Add a new brain"
+      title="Aggiungi cervello"
+      desc="Aggiungi un nuovo cervello"
     >
       <form
         onSubmit={(e) => void handleSubmit(e)}
@@ -40,7 +40,7 @@ const AddBrainModal = (): JSX.Element => {
       >
         <Field
           name="brainname"
-          label="Enter a brain name"
+          label="Inserisci il nome"
           autoFocus
           placeholder="E.g. History notes"
           autoComplete="off"
@@ -49,7 +49,7 @@ const AddBrainModal = (): JSX.Element => {
           className="flex-1"
         />
         <Button isLoading={isPending} className="self-end" type="submit">
-          Create
+          Crea
           <MdAdd className="text-xl" />
         </Button>
       </form>

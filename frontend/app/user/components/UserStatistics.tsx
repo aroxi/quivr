@@ -22,9 +22,9 @@ export const UserStatistics = (userStats: UserStats): JSX.Element => {
       <div className="flex flex-col sm:flex-row sm:items-center py-10 gap-5">
         <div className="flex-1 flex flex-col">
           <h1 className="text-4xl font-semibold">
-            {email.split("@")[0] + "'"}s Brain Usage
+            Admin Uso Neurale
           </h1>
-          <p className="opacity-50">{email}</p>
+          <p className="opacity-50"></p>
           <Link className="mt-2" href={"/logout"}>
             <Button className="px-3 py-2" variant={"danger"}>
               Logout
@@ -39,7 +39,7 @@ export const UserStatistics = (userStats: UserStats): JSX.Element => {
           <div>
             <h1 className="text-2xl font-semibold">
               {/* The last element corresponds to today's request_count */}
-              Today{"'"}s Requests: {requests_stats.at(-1)?.requests_count}
+              Richieste Oggi: {requests_stats.at(-1)?.requests_count}
             </h1>
             <DateComponent date={date} />
           </div>
@@ -50,7 +50,7 @@ export const UserStatistics = (userStats: UserStats): JSX.Element => {
 
         <UserStatisticsCard>
           <div>
-            <h1 className="text-2xl font-semibold">Remaining Brain size</h1>
+            <h1 className="text-2xl font-semibold">Dimensione Rimanente</h1>
             <p>
               {/* How much brain space is left */}
               {prettyBytes(max_brain_size - current_brain_size, {
